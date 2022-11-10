@@ -1,0 +1,102 @@
+RESOURCES 11
+RESOURCE mesh
+NAME fighter
+PATH data/assets/x3_fighter.ASE
+RESOURCE mesh
+NAME frigate
+PATH data/assets/frigate.ASE
+RESOURCE mesh
+NAME interceptor1
+PATH data/assets/x3_interceptor.ASE
+RESOURCE mesh
+NAME interceptor2
+PATH data/assets/x3_interceptor.ASE
+RESOURCE mesh
+NAME space
+PATH data/assets/sphere.ASE
+RESOURCE shader
+NAME objects
+PATH data/shaders/phong_tex.vert data/shaders/phong_tex.frag
+RESOURCE shader
+NAME space
+PATH data/shaders/phong_tex2.vert data/shaders/phong_tex2.frag
+RESOURCE texture
+NAME fighter
+PATH data/assets/x3_fighter.tga
+RESOURCE texture
+NAME frigate
+PATH data/assets/frigate.tga
+RESOURCE texture
+NAME space
+PATH data/assets/space.tga
+RESOURCE texture
+NAME interceptor
+PATH data/assets/x3_interceptor.tga
+OBJECTS 5
+OBJECT GameObjectEnvironment
+NAME space
+MESH space
+SHADER space
+TEXTURE space
+POSITION 0.0 0.0 0.0
+ROTATION 0.0 0.0 0.0 0.0
+SCALE 12.0 12.0 12.0
+OBJECT GameObjectMesh
+NAME frigate
+MESH frigate
+SHADER objects
+TEXTURE frigate
+POSITION 0.0 0.0 -3000.0
+ROTATION 0.0 0.0 0.0 0.0
+SCALE 1.0 1.0 1.0
+OBJECT GameObjectPlayer
+NAME fighter1
+MESH fighter
+SHADER objects
+TEXTURE fighter
+POSITION -50.0 55.0 1000.0
+ROTATION 0.0 0.0 0.0 0.0
+SCALE 1.0 1.0 1.0
+OBJECT GameObjectEnemy
+NAME interceptor1
+MESH interceptor1
+SHADER objects
+TEXTURE interceptor
+POSITION -240.0 0.0 -3000.0
+ROTATION 0.0 0.0 0.0 0.0
+SCALE 1.0 1.0 1.0
+OBJECT GameObjectEnemy
+NAME interceptor2
+MESH interceptor2
+SHADER objects
+TEXTURE interceptor
+POSITION 250.0 240.0 -2400.0
+ROTATION 0.0 0.0 0.0 0.0
+SCALE 1.0 1.0 1.0
+WAYPOINTS 26
+POSITION -300.0 0.0 -3000.0
+POSITION -300.0 0.0 -2400.0
+POSITION 300.0 240.0 -2400.0
+POSITION 100.0 -240.0 -2400.0
+POSITION 100.0 -240.0 -3600.0
+POSITION 300.0 240.0 -3600.0
+POSITION 300.0 -150.0 -3000.0
+POSITION 300.0 200.0 -2400.0
+POSITION -300.0 -240.0 -2400.0
+POSITION -300.0 250.0 -2600.0
+POSITION 300.0 250.0 -2700.0
+POSITION 300.0 -240.0 -2400.0
+POSITION -300.0 -240.0 -2400.0
+POSITION 300.0 -240.0 -3600.0
+POSITION -300.0 240.0 -3600.0
+POSITION 300.0 240.0 -3100.0
+POSITION -300.0 240.0 -2400.0
+POSITION 300.0 240.0 -2400.0
+POSITION 300.0 240.0 -2650.0
+POSITION 300.0 -240.0 -2650.0
+POSITION -300.0 -240.0 -2650.0
+POSITION -300.0 240.0 -2650.0
+POSITION 300.0 240.0 -2400.0
+POSITION 300.0 240.0 -3600.0
+POSITION -300.0 240.0 -3600.0
+POSITION -300.0 240.0 -3000.0
